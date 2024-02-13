@@ -1,0 +1,8 @@
+# Ignore node_modules
+/node_modules/
+# Ignore les fichiers d'afffichage du finder
+.DS_Store
+# Ignore les fichiers build
+/build/
+# Ignore les paramètres VSCode
+.vscode/
