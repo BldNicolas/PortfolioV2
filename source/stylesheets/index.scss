@@ -1,2 +1,18 @@
-@use 'common/reset.scss';
-@use 'common/variable.scss';
+@use 'common/functions';
+@use 'common/reset';
+@use 'common/variable';
+
+.welcome
+{
+    height: 100vh;
+    @include functions.flex(column, null, center, center, 2rem);
+}
+
+.welcome__picture
+{
+	width: 100vw;
+	height: 100vh;
+    object-fit: cover;
+	position: fixed;
+	z-index: -1;
+}
